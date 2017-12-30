@@ -2,7 +2,7 @@ package design;
 
 import java.util.Scanner;
 
-public class EmployeeInfo{
+public class EmployeeInfo implements Employee{
 	
  /*This class can be implemented from Employee interface then add additional methods in EmployeeInfo class.
  * Also, Employee interface can be implemented into an abstract class.So create an Abstract class
@@ -18,6 +18,12 @@ public class EmployeeInfo{
 	/*
 	 * declare few static and final fields and some non-static fields
 	 */
+	private String name;
+	private int employeeId, employeeAge;
+	private double salary;
+	private int performance;
+	private int numberOfYears;
+	static String address;
 	static String companyName;
 	
 	/*
@@ -31,9 +37,12 @@ public class EmployeeInfo{
 	 * Must implement below constructor.
 	 */
 	public EmployeeInfo(int employeeId){
-		
+
+		this.employeeId = employeeId;
 	}
     public EmployeeInfo(String name, int employeeId){
+		this.name = name;
+		this.employeeId = employeeId;
 		
 	}
 	
@@ -45,8 +54,20 @@ public class EmployeeInfo{
 	 * So you probably need to send 2 arguments.
 	 * 
 	 */
-	public static int calculateEmployeeBonus(){
-		int total=0;
+	public static double calculateEmployeeBonus(double salary, int performance){
+		double total=0;
+		if (performance == 5) {
+			total = salary + (salary * .10);
+		} else if (performance == 4) {
+			total = salary + (salary * .08);
+		} else if (performance == 3) {
+			total = salary + (salary * .06);
+		} else if (performance == 2) {
+			total = salary + (salary * .04);
+		} else if (performance == 1) {
+			total = salary + (salary * .02);
+		} else
+			total = total;
 		return total;
 	}
 	

@@ -10,15 +10,11 @@ Ans:	IDE means Integrated Development Environment and it is a software applicati
 3. What are the IDEs available in the market to support java?
 Ans:	Eclipse, IntelliJ, NetBeans, jEdit, BlueJ, JCreator etc are some of the IDEs in the market among many others.
 
-4. Explain the entire java life cycle.
-Ans:	Java Lifecycle is Editor - Source Code - Java Compiler - Byte Dode - Java 	Virtual Machine - Operating System.
 
-5. what is class?
-Ans:	Class is the Blueprint or template describes the behavior of the object to be 	created in Java.
 
-6. What is object?
-Ans:	Object is the instance of the class which have states and behaviors.
-
+Explain the entire java life cycle.
+what is class?
+What is object?
 What is the entry point of an application?
 Why main is static?
 What is the difference between an Interface and Abstract class?

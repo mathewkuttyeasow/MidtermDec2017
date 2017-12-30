@@ -13,6 +13,16 @@ public class PrimeNumber {
 		 *
 		 */
 
+		for (int i = 2; i < 1000000; i++) {
+			for (int j = 2; j <= i; j++) {
+				if (j==i) {
+					System.out.println("Prime Numbers from 2 to 1 Million: " + i);
+				}
+				if (i%j == 0) {
+					break;
+				}
+			}
+		}
 	}
 
 }

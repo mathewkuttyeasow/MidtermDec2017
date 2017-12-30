@@ -12,7 +12,10 @@ public class Student {
 	
 	@Override
 	public String toString(){
+
 		return "Student" + "("+"id= "+id+")"+ firstName+" "+lastName+" "+" Grade = "+score;
 	}
-	
+	public String toString() {
+		return "Student" + "(" + "id = " + id + ")" + firstName + " " + lastName  +" " + " Grade = " + score;
+	}
 }

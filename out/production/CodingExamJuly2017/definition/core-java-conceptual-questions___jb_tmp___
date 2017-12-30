@@ -1,25 +1,27 @@
 Please answer the below core-java Questions:
 
+What jdk contains or composed of and define each components?
+Ans :   JDK means Java Development Kit and it contains JRE (Java Runtime Environment) and Development Kit.
+        The kit contains Java Archive (jar), Java Compiler (javac), Java Debugger (jdb), Java Disassembler (javap)
+        Java Documentation (javadoc) etc.
 
-1. What jdk contains or composed of and define each components?
-Ans: 	JDK means Java Development Kit and it contains JRE (Java Runtime Environment) and Development Kit. The kit contains Java Archive (jar), Java Compiler (javac), Java Debugger (jdb), Java Disassembler (javap), Java Documentation (javadoc) etc.
+What is IDE?
+Ans:    IDE means Integrated Development Environment and it is a software application used to write Java Programs.
 
-2. What is IDE?
-Ans:	IDE means Integrated Development Environment and it is a software application used to write Java Programs.
+What are the IDEs available in the market to support java?
+Ans:    Eclipse, IntelliJ, NetBeans, jEdit, BlueJ, JCreator etc are some of the IDEs in the market among many others.
 
-3. What are the IDEs available in the market to support java?
-Ans:	Eclipse, IntelliJ, NetBeans, jEdit, BlueJ, JCreator etc are some of the IDEs in the market among many others.
+Explain the entire java life cycle.
+Ans:   Java Lifecycle is Editor - Source Code - Java Compiler - Byte Dode - Java Virtual Machine - Operating System.
 
-4. Explain the entire java life cycle.
-Ans:	Java Lifecycle is Editor - Source Code - Java Compiler - Byte Dode - Java 	Virtual Machine - Operating System.
+what is class?
+Ans:    Class is the Blueprint or template describes the behavior of the object to be created in Java.
 
-5. what is class?
-Ans:	Class is the Blueprint or template describes the behavior of the object to be 	created in Java.
-
-6. What is object?
-Ans:	Object is the instance of the class which have states and behaviors.
+What is object?
+Ans:   Object is the instance of the class which have states and behaviors.
 
 What is the entry point of an application?
+
 Why main is static?
 What is the difference between an Interface and Abstract class?
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
@@ -37,6 +39,7 @@ What is "this" keyword in java ?
 What is "super" keyword in java?
 What is JVM stand for ?
 What version of java are you using?
+
 What is JAR stand for ?
 What is compile time and run time?
 What is heap?

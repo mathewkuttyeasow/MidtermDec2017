@@ -23,11 +23,23 @@ public class LowestNumber {
 
 		} catch (Exception e) {
 			e.printStackTrace();
+
+			public static int lowestNumber(int[] arr) {
+				int min = arr[0];
+				for (int i = 1; i < arr.length; i++) {
+					if (arr[i] < min) {
+						min = arr[i];
+					}
+				}
+			}
 		}
 		System.out.println("Data is reading from the Table (tbl_primenumber) and displaying to the console");
 		for(String st:lowestValue){
 			System.out.println(st);
 		}
+
+		System.out.println("The Lowest Number is:  " + lowestNumber (array));
 	}
 
 }
+
